@@ -1,18 +1,20 @@
-# <div align="center">Brain Tumor Radiogenomic Classification</div>
+# Brain Tumor Radiogenomic Classification
 
-### <div align="center">WPI CS 539 ML Final Project</div>
+WPI CS 539 ML Final Project
 
-### <div align="center">Felipe Mejias, Jose Raul Gamez Carias, Shreedhar Kodate, Khatera Alizada, Nicholas Josselyn</div>
+Felipe Mejias, Jose Raul Gamez Carias, Shreedhar Kodate, Khatera Alizada, Nicholas Josselyn
 
 ### <ins>Project Goal</ins>: Determine methylation status of brain tumors using magnetic resonance imaging (MRI)
 
 ## Introduction
 
-<div style="text-align: justify"> Automated identification of brain tumors in MRI has many profound clinical applications in surgical treatment planning, image-guided interventions, monitoring tumor growth, and the generation of radiotherapy maps for treatment plans. However, manual identification of brain tumors on MRI is time-consuming, tedious, and subjective and at times it can require invasive follow-up surgeries [1]. Radiologists perform a manual, qualitative approach to identify tumors on MRI, which becomes impractical when dealing with a large number of patients. The automated solution will expedite the process and will decrease the cost of the procedure. The patients, who would otherwise have to wait for longer periods of time because of manual identification procedures by radiologists, could be diagnosed in a timely manner and start their treatment sooner, saving precious time that could extend their lives. </div>
+Automated identification of brain tumors in MRI has many profound clinical applications in surgical treatment planning, image-guided interventions, monitoring tumor growth, and the generation of radiotherapy maps for treatment plans. However, manual identification of brain tumors on MRI is time-consuming, tedious, and subjective and at times it can require invasive follow-up surgeries [1]. Radiologists perform a manual, qualitative approach to identify tumors on MRI, which becomes impractical when dealing with a large number of patients. The automated solution will expedite the process and will decrease the cost of the procedure. The patients, who would otherwise have to wait for longer periods of time because of manual identification procedures by radiologists, could be diagnosed in a timely manner and start their treatment sooner, saving precious time that could extend their lives.
+
 
 ## Background
 
 There is an existing work that ensembles multiple architectures trained on the BraTS data set, however, they do so in order to generate high quality segmentations of brain tumors. In our work, we intend to ensemble architectures, across various MRI scan types, for the classification of methylation status of the tumor. The promise of using ensemble techniques is shown as this implementation won the BraTS competition for segmentation in 2017 [2]. Additionally, work has been done using traditional machine learning to extract features and ensemble methods for classification [3]. However, we propose to remove the manual feature extraction step and employ deep learning models to learn the features to extract and ensemble them to build a reliable classifier. There also exists a work that uses a different MRI dataset with deep learning and ensemble methods for assessing MRI image quality. This work tunes a CNN by adapting and adjusting the VGG architecture to fit their data and ensembles models that were trained on one MRI scan type, but across different scan orientations (coronal, sagittal, and axial) [4].
+
 
 ## Methodology
 
