@@ -44,6 +44,6 @@ These were the results:
 
 [4] Sujit, S. et al., “Automated image quality evaluation of structural brain MRI using an ensemble of deep learning networks”, Journal of Magnetic Resonance Imaging (2019)
 
-[5] RSNA-MICCAI Brain Tumor Radiogenomic Classification | Kaggle 
+[5] RSNA-MICCAI Brain Tumor Radiogenomic Classification - Kaggle 
 
 [6] https://github.com/hasibzunair/3D-image-classification-tutorial 
