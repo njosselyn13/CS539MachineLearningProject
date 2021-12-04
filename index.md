@@ -18,17 +18,21 @@ There is an existing work that ensembles multiple architectures trained on the B
 
 ## Methodology
 
-### Data
+### Description of the dataset
 
-We will use the MRI scans of patients from the BraTS 2021 dataset that labels the MGMT status of the patients. The BraTS 2021 dataset is a comprehensive collection of brain tumor MRI scans of patients from various institutions that use different equipment and imaging protocols that represent heterogeneous image quality and diverse clinical practices from different institutions [1,5]. The dataset we will use consists of 585 cases/patients. The data is essentially balanced with 47% being labeled ‘0’ (unmethylated) and 53% being labeled ‘1’ (methylated). The dataset will be divided into training, validation and testing data sets. As part of the BraTS 2021 data set, the participants are provided with binary class labels denoting their tumor methylation status. Each patient has 4 different scan types (T1w, T2w, FLAIR, and T1wCE) each of which captures unique information of the tumors.
+The data consists of the MRI scans of 585 patients from the BraTS 2021 dataset that labels the MGMT status of the patients. The BraTS 2021 dataset is a comprehensive collection of brain tumor MRI scans of patients from various institutions that use different equipment and imaging protocols that represent heterogeneous image quality and diverse clinical practices from different institutions [1,5]. The data is essentially balanced with 47% being labeled ‘0’ (unmethylated) and 53% being labeled ‘1’ (methylated). As part of the BraTS 2021 data set, the participants are provided with binary class labels denoting their tumor methylation status. Each patient has 4 different scan types (T1w, T2w, FLAIR, and T1wCE) each of which captures unique information of the tumors.
 
 ### 3D Convolutional Neural Network
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+3D Convolutional Neural Networks have been found to be useful for image classification problems. These artificial neural networks are made up of convolutional, pooling and fully-connected layers. 3D convolutional neural networks are characterised by three main properties: local connectivity of the hidden units, parameter sharing and the use of pooling operations.
 
-### VGG 16
+![image](https://user-images.githubusercontent.com/12739451/144713382-58c4aaa0-8dfb-4b33-9580-f5722a21e87b.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fmejias/CS539MachineLearningProject/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### VGG-16
+
+VGG-16 is a Convolutional Neural Network for image classification and detection.
+
+![image](https://user-images.githubusercontent.com/12739451/144714274-1f937e93-6260-43b4-991f-e6fb729d7873.png)
 
 ## Results
 
