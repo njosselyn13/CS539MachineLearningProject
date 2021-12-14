@@ -28,11 +28,11 @@ The data consists of the MRI scans of 585 patients from the BraTS 2021 dataset t
 
 https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov
 
+<p align="center">
+  
 <iframe width="560" height="315" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<video width="320" height="240" controls>
-  <source type="video/mov" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov">
-</video>
+</p>
 
 ### 3D Convolutional Neural Network
 
