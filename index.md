@@ -28,6 +28,8 @@ The data consists of the MRI scans of 585 patients from the BraTS 2021 dataset t
 
 https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov
 
+<iframe width="560" height="315" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ### 3D Convolutional Neural Network
 
 3D Convolutional Neural Networks have been found to be useful for image classification problems. Conv3D is mostly used with 3D image data such as Magnetic Resonance Imaging (MRI) data. These artificial neural networks are made up of convolutional, pooling and fully-connected layers. 3D convolutional neural networks are characterised by three main properties: local connectivity of the hidden units, parameter sharing and the use of pooling operations.
