@@ -34,6 +34,8 @@ https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-
 
 </p>
 
+<p align="center">
+  
 <div class="embed-container">
   <iframe
       src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov"
@@ -43,6 +45,8 @@ https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-
       allowfullscreen="">
   </iframe>
 </div>
+
+</p>
 
 ### 3D Convolutional Neural Network
 
