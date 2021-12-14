@@ -26,27 +26,7 @@ The data consists of the MRI scans of 585 patients from the BraTS 2021 dataset t
 
 ### 3D FLAIR Brain MRI
 
-https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov
-
-<p align="center">
-  
-<iframe width="560" height="515" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-</p>
-
-<p align="center">
-  
-<div class="embed-container">
-  <iframe
-      src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov"
-      width="500"
-      height="480"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
-
-</p>
+![3D FLAIR Brain MRI](https://user-images.githubusercontent.com/12739451/146030278-55b10a5c-526e-4610-8e2e-86556095f4bb.gif)
 
 ### 3D Convolutional Neural Network
 
