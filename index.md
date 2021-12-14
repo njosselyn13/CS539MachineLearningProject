@@ -107,6 +107,18 @@ Taking the best performing 4 models on the validation set we ensembled them usin
 |---|---|
 ![image](https://user-images.githubusercontent.com/12739451/145863495-773e3400-2fbe-406c-bf3c-54c577b1a892.png)  |  ![image](https://user-images.githubusercontent.com/12739451/145863515-7e56b973-9315-4bbe-a125-f9488f504971.png)
 
+## Conclusion
+
+- Best model on validation set:
+  - T1w – Simple CNN
+  - T1wCE – Simple CNN
+  - T2w – ResNet-50
+  - FLAIR – ResNet-50
+- Best performing MRI type on test set: FLAIR
+- Ensemble outperforms in accuracy by 1%
+- More standardization/preprocessing of data needed
+- Additional data augmentation – limited data
+
 ## References
 
 [1] Baid, U. et al., “The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification”, arXiv:2107.02314 (2021)
