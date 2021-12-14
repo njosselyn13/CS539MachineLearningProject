@@ -30,9 +30,19 @@ https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-
 
 <p align="center">
   
-<iframe width="560" height="315" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="515" src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </p>
+
+<div class="embed-container">
+  <iframe
+      src="https://user-images.githubusercontent.com/12739451/145922841-2a0b4591-b49a-4709-abce-edf21042bc62.mov"
+      width="500"
+      height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe>
+</div>
 
 ### 3D Convolutional Neural Network
 
